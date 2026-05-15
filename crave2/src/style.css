@@ -1,0 +1,126 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: relative;
+  height: 26rem;
+  width: 30rem;
+  background-color: rgb(180, 159, 148);
+  border-radius: 15px;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon {
+  position: absolute;
+  top: -5.5rem;
+  background-color: rgb(180, 159, 148);
+  height: 11rem;
+  width: 11rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.icon img {
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: white;
+  text-align: center;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border: none;
+  background-color: rgb(94, 82, 75);
+  color: white;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: rgb(155, 130, 117);
+  color: black;
+}
+
+input {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 0;
+  background-color: rgb(180, 159, 148);
+  border: 2px solid rgb(94, 82, 75);
+  border-radius: 15px;
+  width: 100%;
+  color: white;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+.input-field,
+.password-wrapper {
+  box-sizing: border-box;
+  width: 55%;
+  margin-bottom: 1rem;
+}
+
+.password-wrapper {
+  width: 55%;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.password-wrapper input {
+  width: 100%;
+  margin-bottom: 0;
+  border-radius: 15px;
+}
+
+.password-wrapper button {
+  background: none !important;
+  border: none !important;
+  width: auto !important;
+  padding: 0.5rem !important;
+  margin-top: 0 !important;
+  margin-left: -2.5rem !important;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.password-wrapper button:hover {
+  background: none !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+
