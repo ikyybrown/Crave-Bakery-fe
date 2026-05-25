@@ -7,7 +7,7 @@ import { routes, handleHotUpdate } from 'vue-router/auto-routes'
 import { setupLayouts } from 'virtual:generated-layouts'
 import ui from '@nuxt/ui/vue-plugin'
 
-import App from './App.vue'
+import App from "./App.vue";
 
 const app = createApp(App)
 
